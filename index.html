@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elegance Fashion</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/4b8b1b8d4f.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+<header>
+
+    <div class="logo">
+        Elegance Fashion
+    </div>
+
+    <nav>
+
+        <ul>
+
+            <li><a href="#inicio">Início</a></li>
+
+            <li><a href="#produtos">Produtos</a></li>
+
+            <li><a href="#sobre">Sobre</a></li>
+
+            <li><a href="#avaliacoes">Avaliações</a></li>
+
+            <li><a href="#contato">Contato</a></li>
+
+        </ul>
+
+    </nav>
+
+    <div class="icons">
+
+        <i class="fas fa-search"></i>
+
+        <i class="fas fa-shopping-cart" id="abrirCarrinho"></i>
+
+        <span id="contador">0</span>
+
+    </div>
+
+</header>
+
+<section class="banner" id="inicio">
+
+    <div class="texto">
+
+        <h1>Elegância em cada detalhe</h1>
+
+        <p>
+            Descubra uma coleção exclusiva feita para quem valoriza estilo e sofisticação.
+        </p>
+
+        <a href="#produtos" class="botao">
+            Comprar Agora
+        </a>
+
+    </div>
+
+</section>
+
+<section class="pesquisa">
+
+    <input
+        type="text"
+        id="pesquisa"
+        placeholder="Pesquisar produtos..."
+    >
+
+</section>
+
+<section class="produtos" id="produtos">
+
+<h2>Nossa Coleção</h2>
+
+<div class="cards">
+
+<div class="card">
+<img src="images/vestido.jpg">
+<h3>Vestido Elegance</h3>
+<p>R$199,90</p>
+<button class="comprar">Adicionar</button>
+</div>
+
+<div class="card">
+<img src="images/blazer.jpg">
+<h3>Blazer Premium</h3>
+<p>R$249,90</p>
+<button class="comprar">Adicionar</button>
+</div>
+
+<div class="card">
+<img src="images/camisa.jpg">
+<h3>Camisa Social</h3>
+<p>R$139,90</p>
+<button class="comprar">Adicionar</button>
+</div>
+
+<div class="card">
+<img src="images/calca.jpg">
+<h3>Calça Alfaiataria</h3>
+<p>R$169,90</p>
+<button class="comprar">Adicionar</button>
+</div>
+
+<div class="card">
+<img src="images/saia.jpg">
+<h3>Saia Elegante</h3>
+<p>R$119,90</p>
+<button class="comprar">Adicionar</button>
+</div>
+
+<div class="card">
+<img src="images/sapato.jpg">
+<h3>Sapato Social</h3>
+<p>R$239,90</p>
+<button class="comprar">Adicionar</button>
+</div>
+
+<div class="card">
+<img src="images/bolsa.jpg">
+<h3>Bolsa Premium</h3>
+<p>R$189,90</p>
+<button class="comprar">Adicionar</button>
+</div>
+
+<div class="card">
+<img src="images/relogio.jpg">
+<h3>Relógio Luxo</h3>
+<p>R$349,90</p>
+<button class="comprar">Adicionar</button>
+</div>
+
+<div class="card">
+<img src="images/terno.jpg">
+<h3>Terno Slim</h3>
+<p>R$499,90</p>
+<button class="comprar">Adicionar</button>
+</div>
+
+<div class="card">
+<img src="images/blusa.jpg">
+<h3>Blusa Feminina</h3>
+<p>R$129,90</p>
+<button class="comprar">Adicionar</button>
+</div>
+
+<div class="card">
+<img src="images/salto.jpg">
+<h3>Salto Alto</h3>
+<p>R$269,90</p>
+<button class="comprar">Adicionar</button>
+</div>
+
+<div class="card">
+<img src="images/cinto.jpg">
+<h3>Cinto Premium</h3>
+<p>R$89,90</p>
+<button class="comprar">Adicionar</button>
+</div>
+
+</div>
+
+</section>
+
+<section id="sobre">
+
+<h2>Sobre a Marca</h2>
+
+<p>
+
+A Elegance Fashion nasceu para oferecer roupas sofisticadas,
+modernas e confortáveis para quem busca qualidade e elegância em
+qualquer ocasião.
+
+</p>
+
+</section>
+
+<section id="avaliacoes">
+
+<h2>Avaliações</h2>
+
+<div class="avaliacao">
+
+★★★★★
+
+<p>
+"Produtos incríveis! Qualidade excelente."
+</p>
+
+<strong>Maria</strong>
+
+</div>
+
+<div class="avaliacao">
+
+★★★★★
+
+<p>
+"Entrega rápida e roupas lindas."
+</p>
+
+<strong>João</strong>
+
+</div>
+
+</section>
+
+<section id="contato">
+
+<h2>Contato</h2>
+
+<form>
+
+<input type="text" placeholder="Nome">
+
+<input type="email" placeholder="E-mail">
+
+<textarea placeholder="Mensagem"></textarea>
+
+<button>
+
+Enviar
+
+</button>
+
+</form>
+
+</section>
+
+<footer>
+
+<p>
+
+© 2026 Elegance Fashion
+
+</p>
+
+</footer>
+
+<div id="carrinho">
+
+<h2>Carrinho</h2>
+
+<ul id="listaCarrinho">
+
+</ul>
+
+<p>
+
+Total:
+<span id="total">
+R$0,00
+</span>
+
+</p>
+
+<button id="fechar">
+
+Fechar
+
+</button>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
