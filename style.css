@@ -292,3 +292,315 @@ nav a:hover{
     color:black;
 
 }
+/* ===========================
+   SOBRE
+=========================== */
+
+#sobre{
+
+    width:90%;
+    margin:auto;
+    padding:80px 0;
+    text-align:center;
+
+}
+
+#sobre h2{
+
+    font-size:40px;
+    margin-bottom:25px;
+    color:#111;
+
+}
+
+#sobre p{
+
+    max-width:800px;
+    margin:auto;
+    line-height:1.8;
+    font-size:18px;
+    color:#555;
+
+}
+
+/* ===========================
+   AVALIAÇÕES
+=========================== */
+
+#avaliacoes{
+
+    background:#111;
+    color:white;
+    padding:80px 5%;
+
+}
+
+#avaliacoes h2{
+
+    text-align:center;
+    margin-bottom:50px;
+    font-size:40px;
+
+}
+
+.avaliacao{
+
+    background:white;
+    color:#111;
+    padding:25px;
+    margin:20px auto;
+    max-width:700px;
+    border-radius:15px;
+    box-shadow:0 8px 20px rgba(0,0,0,.2);
+
+}
+
+.avaliacao p{
+
+    margin:15px 0;
+
+}
+
+.avaliacao strong{
+
+    color:#D4AF37;
+
+}
+
+/* ===========================
+   CONTATO
+=========================== */
+
+#contato{
+
+    width:90%;
+    margin:auto;
+    padding:80px 0;
+
+}
+
+#contato h2{
+
+    text-align:center;
+    margin-bottom:40px;
+    font-size:40px;
+
+}
+
+form{
+
+    max-width:700px;
+    margin:auto;
+
+}
+
+form input,
+form textarea{
+
+    width:100%;
+    padding:16px;
+    margin-bottom:20px;
+
+    border-radius:10px;
+
+    border:1px solid #ddd;
+
+    font-size:16px;
+
+}
+
+form textarea{
+
+    height:180px;
+    resize:none;
+
+}
+
+form button{
+
+    width:100%;
+    padding:16px;
+
+    background:#111;
+
+    color:white;
+
+    border:none;
+
+    border-radius:30px;
+
+    cursor:pointer;
+
+    font-size:18px;
+
+    transition:.3s;
+
+}
+
+form button:hover{
+
+    background:#D4AF37;
+    color:#111;
+
+}
+
+/* ===========================
+   FOOTER
+=========================== */
+
+footer{
+
+    background:#111;
+    color:white;
+    text-align:center;
+    padding:30px;
+
+}
+
+/* ===========================
+   CARRINHO
+=========================== */
+
+#carrinho{
+
+    position:fixed;
+
+    right:-420px;
+
+    top:0;
+
+    width:400px;
+
+    height:100vh;
+
+    background:white;
+
+    box-shadow:-5px 0 20px rgba(0,0,0,.2);
+
+    padding:30px;
+
+    transition:.5s;
+
+    z-index:9999;
+
+    overflow-y:auto;
+
+}
+
+#carrinho.ativo{
+
+    right:0;
+
+}
+
+#listaCarrinho{
+
+    list-style:none;
+    margin:20px 0;
+
+}
+
+#listaCarrinho li{
+
+    margin-bottom:15px;
+    padding-bottom:15px;
+    border-bottom:1px solid #ddd;
+
+}
+
+#total{
+
+    font-size:22px;
+    color:#D4AF37;
+    font-weight:bold;
+
+}
+
+#fechar{
+
+    width:100%;
+    margin-top:25px;
+
+    padding:15px;
+
+    border:none;
+
+    background:#111;
+
+    color:white;
+
+    cursor:pointer;
+
+    border-radius:30px;
+
+}
+
+/* ===========================
+   RESPONSIVO
+=========================== */
+
+@media(max-width:900px){
+
+header{
+
+padding:20px;
+
+flex-direction:column;
+
+height:auto;
+
+}
+
+nav ul{
+
+flex-wrap:wrap;
+
+justify-content:center;
+
+gap:15px;
+
+margin:20px 0;
+
+}
+
+.banner{
+
+padding:30px;
+
+text-align:center;
+
+justify-content:center;
+
+}
+
+.banner h1{
+
+font-size:40px;
+
+}
+
+.banner .texto{
+
+width:100%;
+
+}
+
+#pesquisa{
+
+width:100%;
+
+}
+
+#carrinho{
+
+width:100%;
+
+}
+
+.cards{
+
+grid-template-columns:1fr;
+
+}
+
+}
